@@ -60,29 +60,3 @@ const resetButton = function() {
 
 //Reset button
 reset.on("click", resetButton);
-
-
-
-// const button = d3.select("#button");
-// const input = d3.select("#patient-form-input")
-// const table = d3.select(".col-md-12").append("table")
-// const thead = table.append("thead")
-// const thead_row = thead.append("row")
-// thead_row.append("th").text("Full Name")
-// thead_row.append("th").text("Age")
-// thead_row.append("th").text("Blood Type")
-// const tbody = table.append("tbody")
-// const handler = function () {
-//   let bloodType = d3.select("#patient-form-input").property("value")
-//   console.log(bloodType)
-//   // Use the form input to filter the data by blood type
-//   let filterData = data.filter(e => e.bloodType === bloodType)
-//   filterData.forEach(e => {
-//     let row = tbody.append("tr")
-//     row.append("td").text(e.fullName)
-//     row.append("td").text(e.age)
-//     row.append("td").text(e.bloodType)
-//   })
-// }
-// // Complete the click handler for the form
-// button.on("click", handler)

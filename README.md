@@ -8,5 +8,5 @@
 	  4. `country`
 	  5. `shape`
 
-### https://annasiatico.github.io/UFO-sighting/
+### https://annasiatico.github.io/UFO-sightings/
 
